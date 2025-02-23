@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 function App(){
-  const [score,setvalue] =useState(true)
+  const [score,setvalue] = useState(true)
   return(
     <div className=" w-full h-screen  justify-center ">     
     <h1 className="px-6 py-8">{score.toString()}</h1>  
